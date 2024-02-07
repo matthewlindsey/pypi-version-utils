@@ -1,6 +1,28 @@
 [project]
-name = "placeholder"
+name = "pypi-version-utils"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Matthew Lindsey"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/matthewlindsey/pypi-version-utils"
+Changelog = "https://github.com/matthewlindsey/pypi-version-utils/releases"
+Issues = "https://github.com/matthewlindsey/pypi-version-utils/issues"
+CI = "https://github.com/matthewlindsey/pypi-version-utils/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
